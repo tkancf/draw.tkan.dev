@@ -1,31 +1,23 @@
-<script>
-	export let name;
+<script lang="ts">
+  import Article from './Article.svelte';
+  let title: string = "draw.tkan.dev";
+  let articles = [
+    {
+      title: "2020/08/14",
+      description: "お絵描きはじめました。にじさんじの愛園愛美さん",
+      image: "images/20200814_aizono.jpg",
+      alt: "愛園愛美",
+      keep_list: ["moge"],
+      problem_list: ["hoge"],
+      try_list: ["hoge"]
+    },
+  ]
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-  <p></p>
+  <h1>{title}</h1>
+  <Article article_infos={articles} />
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
 </style>
