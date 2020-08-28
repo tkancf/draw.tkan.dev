@@ -4,8 +4,8 @@
 
 <article>
   {#each article_infos as a}
-  <img src={a.image} alt={a.alt} width=500>
   <h2>{a.title}</h2>
+  <img src={a.image} alt={a.alt} width=500>
   <div>{a.description}</div>
   <h3>Keep</h3>
     <ul>
