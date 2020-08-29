@@ -20,7 +20,7 @@
     },
     {
       title: "2020/08/15",
-      description: "今日描いたのはにじさんじの相羽ういはさん 公式のメンバー一覧の模写です。https://nijisanji.ichikara.co.jp/member/", image: "images/20200815相羽ういは.jpg",
+      description: "今日描いたのはにじさんじの相羽ういはさん 公式のメンバー一覧の模写 https://nijisanji.ichikara.co.jp/member/", image: "images/20200815相羽ういは.jpg",
       alt: "相羽ういは",
       keep_list: [
         "下手ながらも全身を色付きで描いた",
@@ -34,6 +34,25 @@
       try_list: [
         "YouTubeに髪の描き方みたいな動画がいくつかあったので、それを観て参考にする",
         "人体のバランスがそもそもよく分かっていないので、解説サイトを読んで練習する"
+      ]
+    },
+    {
+      title: "2020/08/23",
+      description: "今日描いたのはにじさんじの月ノ美兎委員長 公式のメンバー一覧の模写 https://nijisanji.ichikara.co.jp/member/", image: "images/20200823月ノ美兎.jpg",
+      alt: "月ノ美兎",
+      keep_list: [
+        "髪の影を描いた",
+        "顔の影をつけた",
+        "色塗りは乗算レイヤーでやるようにした"
+      ],
+      problem_list: [
+        "肩幅が少し広い",
+        "腰回りも少し太い",
+        "他の髪に重なる部分になるときれいな線画が描けない"
+      ],
+      try_list: [
+        "好みの絵の髪をトレスする",
+        "hitokakuをやる"
       ]
     }
   ]
