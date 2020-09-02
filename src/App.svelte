@@ -1,5 +1,6 @@
 <script lang="ts">
-  import Article from './Article.svelte';
+  import 'bulma/css/bulma.css'
+  import Article from './Article.svelte'
   let title: string = "draw.tkan.dev";
   let article_infos = [
     {
@@ -20,7 +21,7 @@
     },
     {
       title: "2020/08/15",
-      description: "今日描いたのはにじさんじの相羽ういはさん 公式のメンバー一覧の模写 https://nijisanji.ichikara.co.jp/member/", image: "images/20200815相羽ういは.jpg",
+      description: "にじさんじの相羽ういはさん 公式のメンバー一覧の模写 https://nijisanji.ichikara.co.jp/member/", image: "images/20200815相羽ういは.jpg",
       alt: "相羽ういは",
       keep_list: [
         "下手ながらも全身を色付きで描いた",
@@ -38,7 +39,7 @@
     },
     {
       title: "2020/08/23",
-      description: "今日描いたのはにじさんじの月ノ美兎委員長 公式のメンバー一覧の模写 https://nijisanji.ichikara.co.jp/member/", image: "images/20200823月ノ美兎.jpg",
+      description: "にじさんじの月ノ美兎委員長 公式のメンバー一覧の模写 https://nijisanji.ichikara.co.jp/member/", image: "images/20200823月ノ美兎.jpg",
       alt: "月ノ美兎",
       keep_list: [
         "髪の影を描いた",
@@ -58,10 +59,12 @@
   ]
 </script>
 
-<main>
-  <h1>{title}</h1>
-  <Article article_infos={article_infos} />
-</main>
+<section class="section">
+  <div class="container">
+    <h1 class="title">{title}</h1>
+    <Article article_infos={article_infos} />
+  </div>
+</section>
 
 <style>
 </style>
